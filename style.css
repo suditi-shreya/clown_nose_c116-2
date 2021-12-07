@@ -1,0 +1,17 @@
+.btn-info{
+    font-size: 25px !important;
+}
+.btn-danger:hover{
+    background-color: orangered;
+}
+canvas{
+    border:3px  dotted black;
+    animation-name: colour;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes colour{
+    from{box-shadow: 1px 1px 20 skyblue;}
+    to{box-shadow: 1px 1px 20 plum;}
+}
